@@ -1,0 +1,43 @@
+/* writing portfolio */
+table, td, th {
+    border: 2px solid #330066;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: #330066;
+    background-color: #B595FF;
+    
+}
+td {
+    padding: 3px;
+    color: black;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 17px;
+}
+
+.writing {
+    background-color: #B595FF; 
+    border: 2px solid white;
+    color: white;
+    min-width: 300px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.writing:hover {
+    background-color: #330066;
+    color: white;
+}

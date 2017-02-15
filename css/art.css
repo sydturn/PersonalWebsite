@@ -1,0 +1,133 @@
+/* art portfolio */
+.artButton {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+#artPara {
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'BenchNine', sans-serif;
+    box-shadow: 0px 0px 15px #621aff;
+}
+.art {
+    background-color: #B595FF; 
+    border: 2px solid white;
+    color: white;
+    min-width: 200px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    transition-duration: 1s; 
+}
+.art:hover {
+    background-color: #330066;
+    color: white;
+}
+
+/* Slideshow container */
+.slideshow-container .slideshow-container2 {
+  display: block;
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  top:20px;
+  left: 200px;
+}
+
+.mySlides img, .mySlides2 img {
+    border: 2px solid #330066;
+    width: auto !important;
+    max-width: 500px;
+    height: 500px;
+    position: relative;
+    margin-left: 31%;
+    margin-top: 20px;
+    display: block;
+}
+/* Next & previous buttons */
+.prev, .prev2{ 
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  width: auto;
+  padding: 26px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+.next, .next2{
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  right: 0%;
+  width: auto;
+  padding: 26px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+
+/* On hover background change*/
+.prev:hover, .next:hover, .prev2:hover, .next2:hover {
+  background-color: #330066;
+}
+
+/* Caption text */
+.text, .text2 {
+  color: #330066;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 15px;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  position: relative
+}
+
+/* The dots/bullets/indicators */
+.dot, .dot2 {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover, .active2, .dot2:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade, .fade2{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

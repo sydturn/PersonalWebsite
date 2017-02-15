@@ -1,0 +1,47 @@
+/*programming*/
+#passionProjectTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 50px;
+}
+
+#interior {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#projectExplination {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+}
+
+.projectButton {
+    background-color: #330066;
+    border: 1px solid #330066;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.projectButton:hover {
+    background-color: #B595FF;
+    color: black;
+}
+#projectButtons {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+#projectExplination {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}

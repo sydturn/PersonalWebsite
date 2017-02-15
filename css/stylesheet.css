@@ -1,0 +1,232 @@
+body {
+ background: linear-gradient(to bottom right, #7334ff, white);
+ background-size: 300%;
+ background-repeat: no-repeat;
+ min-height: 600px;
+}
+
+.jumbotron {
+  position: relative;
+  background: #000 url("../images/general/headerimage.png") !important;
+  width: 70%;
+  background-size: cover;
+  margin: auto;
+  min-height: 250px;
+  max-height: 250px;
+  align-items: center; !important;
+  border-radius: 70px;
+  margin-bottom: 35px;
+  padding: 30px;
+  box-shadow: 0px 0px 15px #621aff;  
+}
+.name {
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 80px !important;
+    position: relative;
+    margin: auto;
+    margin-top: -20
+    text-align: center;
+}
+.name:hover {
+    color: black; !important;
+}
+.row {
+  position: relative;
+}
+.sideButtons{
+  position: fixed;
+  z-index: 10;
+}
+#sideA {
+  top: 70px;
+  position: fixed;
+    z-index: 1;
+}
+#sideB {
+  top: 70px;
+  position: fixed;
+}
+.sideButtons:hover #sideB {
+    top: 140px;
+    transition: .5s;
+}
+#sideC {
+  top: 70px;
+  position: fixed;
+}
+.sideButtons:hover #sideC {
+    top: 210px;
+    transition: .5s;
+}
+#sideD {
+  top: 70px;
+  position: fixed;
+}
+.sideButtons:hover #sideD {
+    top: 280px;
+    transition: .5s;
+}
+#sideE {
+  top: 70px;
+  position: fixed;
+}
+.sideButtons:hover #sideE {
+    top: 350px;
+    transition: .5s;
+}
+#sideF {
+  top: 70px;
+  position: fixed;
+}
+.sideButtons:hover #sideF {
+    top: 420px;
+    transition: .5s;
+}
+.contact {
+  position:relative;
+  float: right;
+  margin-top: -9px;
+  margin-bottom: -40px;
+}
+.contact:active {
+  transform: translateY(4px);
+}
+.after {
+    content:' ';
+    display:block;
+    border:1px solid #ffffff;
+    border-radius:2px;
+    margin-top: 10px;
+    width: 500px;
+    position: relative;
+    box-shadow: 2px 2px 2px grey;
+}
+.info {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  position: relative;
+  color: #330066;
+  text-align: center;
+}
+.title {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 35px;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000000;
+  position: relative;
+}
+.navigationTop{
+    width: 16.6%;
+    float: left;
+    margin: 0px;
+    text-align: center;
+    -webkit-transition: margin-top .5s;
+}
+.navigationTop:hover {
+    margin-top: -20px;
+}
+.img-circle {
+    margin: auto;
+}
+.navbar {
+    position: relative;
+    width: 65%;
+    margin: -100px auto;
+    z-index: 1;
+}
+.secondbackShort {
+  position: relative;
+  background: #C2B7E6;
+  width: 70%;
+  margin: 0 auto;
+  min-height: 500px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px #621aff;  
+  padding: 20px;
+}
+.fadebackintro {
+    position: relative; 
+    pointer-events: none;
+    cursor: default;
+}
+#fades {
+    position: relative;
+}
+.footer {
+    background:  #745BC4;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    clear: both;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #621aff; 
+}
+.clear {
+    clear: both;
+    line-height: 0;
+}
+#copyRight {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+}
+#siteLinks {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+}
+#socialLinks {
+    position: relative;
+    width: 33%;
+    text-align: center;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+}
+iframe {
+    position: relative;
+
+}
+#logo {
+    height: 13px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color:aquamarine;
+    text-decoration: none;
+}
+#sendMail {
+    position: relative;
+    color: #330066;
+    font-family: benchNine
+    padding: 50px;
+    margin-top: 
+}

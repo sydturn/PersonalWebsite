@@ -1,0 +1,39 @@
+/* contact page */ 
+#commentBox {
+    height: 250px;
+    width: 75%;
+    font-family: 'BenchNine', sans-serif;
+}
+form {
+    margin-top: 80px;
+    margin-left: 100px;
+    font-family: 'BenchNine', sans-serif;
+}
+#sendButton {
+    background-color: #B595FF; 
+    border: 2px solid white;
+    color: white;
+    min-width: 300px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    transition-duration: 1s;
+}
+#sendButton:hover {
+    background-color: #330066;
+    color: white;
+}
+#actualContact {
+    width: 18%;
+    display: inline-block;
+    border: 2px solid #330066;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px #621aff;  
+    padding: 10px;
+    font-family: 'BenchNine', sans-serif;
+}

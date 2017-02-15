@@ -1,0 +1,48 @@
+/* about me */
+#self {
+    float: right;
+    margin-top: -73%;
+    margin-right: -120px;
+}
+.introduction {
+    display: block;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 200%;
+    font-family: 'BenchNine', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+#bio {
+    margin-top: 10px;
+    font-family: 'BenchNine', sans-serif;
+}
+#linebreak {
+    content:' ';
+    display:block;
+    border:1px solid #ffffff;
+    border-radius:2px;
+    margin: auto;
+    margin-top: -10px;
+    width: 20%;
+    position: relative;
+    box-shadow: 2px 2px 2px grey;
+}
+#paraMe {
+    display: block;
+    text-align: center;
+    color: white;
+    width: 65%;
+    margin: auto;
+    background: rgba(115, 52, 255, 1);
+    padding: 10px;
+    margin-top: -20px;
+    font-family: 'BenchNine', sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#manditoryVideo {
+    display: block;
+    margin: auto;
+}
