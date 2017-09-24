@@ -2,24 +2,22 @@
 .convo {
     display: none;
     margin: auto;
+    margin-top: 50px
 }
 .goOrno {
-    background-color: #330066;
-    border: 1px solid #330066;
     color: white;
-    padding: 16px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: none;
     font-family: 'BenchNine', sans-serif;
     font-size: 26px;
-    margin-left: 30%;
-    margin-top: 20px;
     transition-duration: 0.4s;
     cursor: pointer;
+    margin-top: 50px;
 } 
 
 .goOrno:hover {
-    background-color: #B595FF;
+    background-color: white;
     color: black;
 }

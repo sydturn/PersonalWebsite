@@ -1,6 +1,6 @@
 setTimeout(function convo() {
     var me = document.getElementById("me");
-    me.style.display = "block";   
+    me.style.display = "block";
 }, 1000);
 
 setTimeout(function() {
@@ -8,7 +8,7 @@ setTimeout(function() {
     you.style.display = "block"; 
 },3000);
 
-var pictures = ["images/homePage/goAboutMe.png","images/homePage/goArt.png","images/homePage/goContactMe.png","images/homePage/goProgramming.png","images/homePage/goResume.png","images/homePage/goWriting.png"];
+var pictures = ["images/homePage/goAboutMe.png","images/homePage/goArt.png","images/homePage/goContactMe.png","images/homePage/goProgramming.png","images/homePage/goResume.png","images/homePage/goWriting.png","images/homePage/recipe.png"];
 
 var me;
 var page;
@@ -53,6 +53,8 @@ function goTo() {
             break;
         case "images/homePage/stay.png":
             break;
+        case "images/homePage/recipes.png":
+            window.location = "recipes.html"
     }       
 }
 

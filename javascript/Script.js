@@ -1,72 +1,23 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+function openModal(e) {
+// Get the modal
+    var modal = document.getElementById('myModal');
 
-var slideIndex2 = 1;
-console.log(slideIndex2);
-showSlides2(slideIndex2);
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById(e.id);
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    
+    modal.style.display = "block";
+    modalImg.src = img.src;
+    captionText.innerHTML = img.alt;
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-function plusSlides2(n) {
-  if(isNaN(slideIndex2)) {
-      slideIndex2 = 1;
-  }
-  showSlides2(slideIndex2 += n);
-}
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-function currentSlide2(n) {
-  showSlides2(slideIndex2 = n);
-}
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {
-      slideIndex = 1
-  } 
-  if (n < 1) {
-      slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-
-function showSlides2(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides2");
-  var dots = document.getElementsByClassName("dot2");
-  if (n > slides.length) {
-      slideIndex2 = 1
-  } 
-  if (n < 1) {
-      slideIndex2 = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex2-1].style.display = "block"; 
-  dots[slideIndex2-1].className += " active";
-}
-
-function showDiv(itemShow, itemHide) {
-    var show = document.getElementById(itemShow);
-    var hide = document.getElementById(itemHide);
-    var hidePara = document.getElementById("artPara");
-    show.style.display = show.style.display == "none" ? "block" : "none";
-    hide.style.display = show.style.display == "block" ? "none" : "none";
-    hidePara.style.display = show.style.display == "block" ? "none" : "block";
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+    return false;
 }

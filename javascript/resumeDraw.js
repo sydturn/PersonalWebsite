@@ -1,3 +1,4 @@
+//what's a jquery?
 var canvas = document.getElementById('canvasDraw');
 var ctx = canvas.getContext('2d');
 var painting = document.getElementById('paint');
@@ -13,7 +14,7 @@ imageObj.onload = function() {
     ctx.drawImage(imageObj, 0, 0, canvas.width, canvas.height);
 };
 imageObj.crossOrigin="images/resume/Anonymous";
-imageObj.src = 'images/resume/resume.png';
+imageObj.src = 'img/resume.jpg';
 
 
 canvas.addEventListener('mousemove', function(e) {

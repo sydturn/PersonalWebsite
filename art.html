@@ -1,210 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>SydneyTurnbull - Art</title>
-        <link rel="shortcut icon" href="images/general/aboutMe.png" type="image/x-icon" />
-        <link href='https://fonts.googleapis.com/css?family=Dancing+Script%7CPathway+Gothic+One%7CBenchNine' rel='stylesheet' type='text/css'>
-        <meta name="description" content="Personal Artwork">
-        <meta name="keywords" content="Graphic Design, Drawings, Painting, Video games, Logos">
-        <meta name="author" content="Sydney Turnbull">
-        <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
-        <link type="text/css" rel="stylesheet" href="css/art.css"/>
-        <script type="text/javascript" src="javascript/Script.js"></script>
-    </head>
-    <body onload="plusSlides(0); plusSlides2(0)">
-        <header class="container-fluid">
-            <div class="jumbotron">
-                <div>
-                    <!-- contact info buttons-->
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank"><img src="images/general/share.png" class="img-circle; contact" alt="share Link" width="50" height="50"></a>
-                    <a href="mailto:turnbull.sydney@gmail.com" target="_blank"><img src="images/general/email.png" class="img-circle; contact" alt="email Link" width="50" height="50"></a>
-                    <a href="https://www.linkedin.com/in/sydney-turnbull-00459b99" target="_blank"><img src="images/general/linkedin.png" class="img-circle; contact" alt="linkedin Link" width="50" height="50"></a>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sydney Turnbull - About</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/art.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Programming</a>
+                    </li>
+                    <li>
+                        <a href="art.html">Art</a>
+                    </li>
+                    <li>
+                        <a href="writingportfolio.html">Writing</a>
+                    </li>
+                    <li>
+                        <a href="recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/art-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>Sydney Turnbull</h1>
+                        <hr class="large">
+                        <span class="subheading">Art Portfolio</span>
+                        <img class="profilePicture" src="img/Me.png"/>
+                    </div>
                 </div>
-                <br class="clear"/>
-                <div>
-                    <h1 class="name">
-                        <center>
-                            <a href="index.html">Sydney Turnbull</a>
-                            <div class="after"></div>
-                        </center>
-                    </h1>
-                    <h4 class="title">
-                        <center>ABOUT ME</center>
-                    </h4>
-                </div>
             </div>
-        </header>
-        <!-- Main top buttons and their titles attached beneath -->
-        <nav class="navbar">
-            <div class = "navigationTop" id = "aboutMe">
-                <a href="aboutMe.html">
-                <img src="images/general/aboutMe.png" class="img-circle" alt="About Me Link" width="150" height="150"></a>
-                <h1 class="info">About Me</h1>
-            </div>
-            <div class = "navigationTop" id = "resume">
-                <a href="resume.html"><img src="images/general/educationbutton.png" class="img-circle" alt="Github Link" width="150" height="150"></a>
-                <h1 class="info">Resume/Experience</h1>
-            </div>
-            <div class = "navigationTop" id = "code">
-                <a href="programming.html"><img src="images/general/projectsbutton.png" class="img-circle" alt="Github Link" width="150" height="150"></a>
-                <h1 class="info">Programming Portfolio</h1>
-            </div>
-            <div class = "navigationTop" id = "writing">
-                <a href="writing.html"><img src="images/general/writing.png" class="img-circle" alt="Github Link" width="150" height="150"></a>
-                <h1 class="info">Writing Porfolio</h1>
-            </div>
-            <div class = "navigationTop" id = "art">
-                <a href="art.html"><img src="images/general/art.png" class="img-circle" alt="Github Link" width="150" height="150"></a>
-                <h1 class="info">Art Portfolio</h1>
-            </div>
-            <div class = "navigationTop" id = "contactMe">
-                <a href="ContactMe.html">
-                <img src="images/general/contact.png" class="img-circle" alt="About Me Link" width="150" height="150"></a>
-                <h1 class="info">Contact Me</h1>
-            </div>
-            <br class="clear"/>
-        </nav>
-        <!-- Side buttons that follow as you scroll -->
-        <nav class="sideButtons">
-            <a href="aboutMe.html"><img src="images/general/aboutMe.png" id="sideA" alt="Github Link" width="70" height="70"></a>
-            <a href="resume.html"><img src="images/general/educationbutton.png" id="sideB" alt="Github Link" width="70" height="70"></a>
-            <a href="programming.html"><img src="images/general/projectsbutton.png" id="sideC" alt="Github Link" width="70" height="70"></a>
-            <a href="writing.html"><img src="images/general/writing.png" id="sideD" alt="Github Link" width="70" height="70"></a>
-            <a href="art.html"><img src="images/general/art.png" id="sideE" alt="Github Link" width="70" height="70"></a>
-            <a href="ContactMe.html"><img src="images/general/contact.png" id="sideF" alt="Github Link" width="70" height="70"></a>
-        </nav>
-        <!-- begining of 'body' -->
-        <article class="secondbackShort">
-            <div class="artButton">
-                <button onclick="showDiv('physicalArt', 'graphicDesign')"  class = "art">Physical Art</button>
-                <button onclick="showDiv('graphicDesign', 'physicalArt')" class = "art">Graphic Design</button>
-                <h5 id="artPara">
-                    Click on the above buttons for a taste of my artistic ability!<br>
-                    "Physical Art" is art that I've done with physical materials such as 
-                    <ul>
-                        <li>Acrylic Paint</li>
-                        <li>Plaster</li>
-                        <li>Pencil & Paper</li>
-                        <li>Metals, plastics, etc.</li>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <p>Much of my graphic art comes from games I helped create. If you would like to play those games, here are their download links:
+            </p>
+            <ol>
+                <li><a href="https://ggj.s3.amazonaws.com/games/2016/01/31/1643/AM%20ASAP.zip">(Global Game Jam 2016 - Morning Ritual)</a></li>
+                <li><a href="http://www.northerngdc.ca/GameDownloads/Astro-Snot_Data.rar">(2016 Sudbury Game Design - Astro Snot)</a></li>
+                <li><a href="http://www.northerngdc.ca/GameDownloads/Secrets.zip">(2016 Sudbury Game Design - Secrets of the Frost King)</a></li>
+            </ol>
+            <p>Graphic art is art that I have created using programs such as Adopbe Fireworks/Photoshop and Inkscape. These include things like video games and logos.</p>
+            <p>Physical art is art I have created by hand via various mediums. To get more information about them, click on the image to open it in a modal.</p>
+            <hr>
+      <h1 class="my-4 text-center text-lg-left">Graphic Art</h1>
+
+      <div class="row text-center text-lg-left">
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img14" class="img-fluid img-thumbnail" src="images/art/astroSnot(2).png" alt="Astro-Snot: Sudbury Game Desgin Competition 2016" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img13" class="img-fluid img-thumbnail" src="images/art/astroSnot.png" alt="Astro-Snot: Sudbury Game Desgin Competition 2016" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img12" class="img-fluid img-thumbnail" src="images/art/RitualGame.jpg" alt="Morning Ritual: Global Game Jam 2016" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img11" class="img-fluid img-thumbnail" src="images/art/ACSCWhite.JPG" alt="Algoma University Computer Science Club Logo" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img10" class="img-fluid img-thumbnail" src="images/art/ZergCup.jpg" alt="Starcraft Zergling" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img9" class="img-fluid img-thumbnail" src="images/art/img6.png" alt="Starcraft SCV, Probe, Drone" onclick="openModal(this)">
+          </a>
+        </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img15" class="img-fluid img-thumbnail" src="images/art/emptyGlass.png" alt="Empty Glass Logo (personal team name)" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img8" class="img-fluid img-thumbnail" src="images/art/conceptArt.jpg" alt="Concept Art for Gecko Hides" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img16" class="img-fluid img-thumbnail" src="images/art/introScreen.fw.png" alt="Secrets of the Frost King: Sudbury Game Design Competition 2017" onclick="openModal(this)">
+          </a>
+        </div>
+       </div>
+
+      <h1 class="my-4 text-center text-lg-left">Physical Art</h1>
+
+      <div class="row text-center text-lg-left">
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img7" class="img-fluid img-thumbnail" src="images/art/img2.jpg" alt="PayDay2 Dallas Mask: Cast and Acrylic" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img6" class="img-fluid img-thumbnail" src="images/art/img23.jpg" alt="PayDay2 Chains Mask: Cast and Acrylic" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img5" class="img-fluid img-thumbnail" src="images/art/img25.jpg" alt="PayDay2 Wolf Mask: Cast and Acrylic" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img4" class="img-fluid img-thumbnail" src="images/art/img5.jpg" alt="Legend of Zelda (Link): Acrylic on XBox360" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img3" class="img-fluid img-thumbnail" src="images/art/img3.jpg" alt="Dragon: Pencil on Paper" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img2" class="img-fluid img-thumbnail" src="images/art/img1.jpg" alt="Eagle: Pencil on Paper" onclick="openModal(this)">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#!" class="d-block mb-4 h-100">
+            <img id="Img" class="img-fluid img-thumbnail" src="images/art/img4.jpg" alt="Yoshi: Acrylic on Steel" onclick="openModal(this)">
+          </a>
+        </div>
+      </div>
+
+        </div>
+    </div>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://ca.linkedin.com/in/sydney-turnbull-00459b99">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100009309951822">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/sydturn">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
                     </ul>
-                    Whereas "Graphic Design" will display a few things that I have done using Fireworks. This includes work such as:
-                    <ul>
-                        <li>Logos</li>
-                        <li>Game Graphics</li>
-                        <li>Simple Sketches</li>
-                        <li>Concept Art</li>
-                    </ul>
-                </h5>
-            </div>
-            <div id = "physicalArt" style="display:none">
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <img src="images/art/img1.jpg" alt="Eagle Drawing" style="width:100%">
-                        <div class="text">2013 Eagle, Pencil and Paper</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img src="images/art/img3.jpg" alt="Dragon Drawing" style="width:100%">
-                        <div class="text">2013 Dragon, Pencil and Paper</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img src="images/art/img2.jpg" alt="Payday Mask" style="width: 100%">
-                        <div class="text">2014 Payday2 Mask, Acrylic Paint and Plaster</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img src="images/art/img23.jpg" alt="Payday Mask" style="width: 100%">
-                        <div class="text">2014 Payday2 Mask, Acrylic Paint and Plaster</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img src="images/art/img25.jpg" alt="Payday Mask" style="width: 100%">
-                        <div class="text">2014 Payday2 Mask, Acrylic Paint and Plaster</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img src="images/art/img4.jpg" alt="Yoshi PC" style="width:100%">
-                        <div class="text">2015 Yoshi, Acrylic Paint on Metal PC Case</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <img src="images/art/img5.jpg" alt="Xbox Link" style="width:100%">
-                        <div class="text">2015 Link, Acrylic Paint on Plastic XBox Case</div>
-                    </div>
-                </div>
-                <br>
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                    <span class="dot" onclick="currentSlide(4)"></span> 
-                    <span class="dot" onclick="currentSlide(5)"></span> 
-                    <span class="dot" onclick="currentSlide(6)"></span> 
-                    <span class="dot" onclick="currentSlide(7)"></span> 
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
                 </div>
             </div>
-            <div id = "graphicDesign" style="display:none">
-                <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
-                <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
-                <div class="slideshow-container2">
-                    <div class="mySlides2 fade2">
-                        <img src="images/art/img6.png" alt="Zerg Cup" style="width:100%">
-                        <div class="text2">Star Craft "Empty Glass" - Adobe Fireworks</div>
-                    </div>
-                    <div class="mySlides2 fade2">
-                        <div class="numbertext2"></div>
-                        <img src="images/art/conceptArt.jpg" alt="Concept Art" style="width:100%">
-                        <div class="text2">Gecko Hide Concept Art - Adobe Fireworks</div>
-                    </div>
-                    <div class="mySlides2 fade2">
-                        <div class="numbertext2"></div>
-                        <img src="images/art/astroSnot(2).png" alt="Astro Snot" style="width: 100%">
-                        <div class="text2">SGDC "Astro Snot" Game Design Comp. - Fireworks</div>
-                    </div>
-                    <div class="mySlides2 fade2">
-                        <div class="numbertext2"></div>
-                        <img src="images/art/astroSnot.png" alt="Astro Snot" style="width: 100%">
-                        <div class="text2">SGDC "Astro Snot" Game Play - Adobe Fireworks</div>
-                    </div>
-                    <div class="mySlides2 fade2">
-                        <div class="numbertext2"></div>
-                        <img src="images/art/RitualGame.jpg" alt="Ritual Game" style="width: 100%">
-                        <div class="text2">Global Game Jam - Adobe Fireworks</div>
-                    </div>
-                    <div class="mySlides2 fade2">
-                        <div class="numbertext2"></div>
-                        <img src="images/art/ZergCup.jpg" alt="Zerg Cup" style="width:100%">
-                        <div class="text2">Star Craft Fan Art - Adobe Fireworks</div>
-                    </div>
-                    <div class="mySlides2 fade2">
-                        <div class="numbertext2"></div>
-                        <img src="images/art/ACSCWhite.JPG" alt="ACSC Logo" style="width:100%">
-                        <div class="text2">Computer Science Club Logo - InkScape</div>
-                    </div>
-                </div>
-                <br>
-                <div style="text-align:center">
-                    <span class="dot2" onclick="currentSlide2(1)"></span> 
-                    <span class="dot2" onclick="currentSlide2(2)"></span> 
-                    <span class="dot2" onclick="currentSlide2(3)"></span> 
-                    <span class="dot2" onclick="currentSlide2(4)"></span> 
-                    <span class="dot2" onclick="currentSlide2(5)"></span> 
-                    <span class="dot2" onclick="currentSlide2(6)"></span> 
-                    <span class="dot2" onclick="currentSlide2(7)"></span> 
-                </div>
-            </div>
-        </article>
-        <footer class="footer">
-            <div id="copyRight"><a href="mailto:turnbull.sydney@gmail.com">turnbull.sydney@gmail.com</a><br>Copyright 2016</div>
-            <div id="siteLinks">
-                <div id="logo">Sydney Turnbull</div>
-                <br><a href="#top">Back To Top</a><br><a href="index.html">Main</a>
-            </div>
-            <div id="socialLinks"><a href="https://www.facebook.com/people/Sydney-Turnbull/100009309951822">Facebook</a><br><a href="https://github.com/sydturn">Github</a><br><a href="https://ca.linkedin.com/in/sydney-turnbull-00459b99">LinkedIn</a></div>
-            <br class="clear"/>
-        </footer>
-    </body>
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+    <script src="javascript/Script.js"></script>
+
+</body>
+
 </html>
