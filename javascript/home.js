@@ -34,22 +34,22 @@ setTimeout(function() {
 function goTo() {
     switch(page) {
         case "images/homePage/goAboutMe.png":
-            window.location = "aboutMe.html";
+            window.location = "about.html";
             break;
         case "images/homePage/goArt.png":
             window.location = "art.html";
             break;
         case "images/homePage/goContactMe.png":
-            window.location = "ContactMe.html";
+            window.location = "contact.html";
             break;
         case "images/homePage/goProgramming.png":
-            window.location = "programming.html";
+            window.location = "projects.html";
             break;
         case "images/homePage/goResume.png":
             window.location = "resume.html";
             break;
         case "images/homePage/goWriting.png":
-            window.location = "writing.html";
+            window.location = "writingportfolio.html";
             break;
         case "images/homePage/stay.png":
             break;
